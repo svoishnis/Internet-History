@@ -1,112 +1,141 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>The History Of the Internet</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <meta name="description" content="This is an example of a meta description, This will often how up in the search results">
-
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Examples Provided from Class-->
-    <style>
-        #primaryLinks {
-            height: 100px;
-            margin: 0px;
-            line-height: 100px;
-            width: 553px;
-            text-align: right;
-        }
-        #primaryLinks li {
-            display: inline;
-
-        }
-        #primaryLinks menu {
-            padding-top: 0px;
-            padding-left: 0px;
-            margin: 0px;
-        }
-
-        #logo{
-            float: left;
-            width: 367px;
-            height: 100px;
-
-        }
-
-        #wrapper{
-            width: 960px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        #logo img{
-            width: 200px;
-            height: auto;
-            float: left;
-        }
-
-        #primaryContent{
-            clear: both;
-            width: 553px;
-
-        }
-        #footer{
-            clear: both;
-            text-align: center;
-            line-height: 100px;
-        }
-
-        #topContent {
-            height: 100px;
-            line-heignt: 100px;
-        }
-
-        .clearFix{
-            clear: both;
-        }
-
-        .floatLeft{
-            float: left;
-        }
-
-    </style>
-    <meta name="theme-color" content="#fafafa">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/Temp.css">
 </head>
-
 <body>
-<!-- Adding examples from Class-->
-<div id="wrapper">
-    <div id="logo" class="floatLeft">
-        <img src= "images/logo.jpg" alt="Hey this is a Logo: The cookies of the internet by Kalexanderson is licensed under CC BY-NC-SA 2.0 "/>
+<section class ="header">
+    <nav>
+        <a href="index.html">   <!--<img src="images/logo.png">--></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="People.html">PEOPLE</a></li>
+                <li><a href="Inventions.html">INVENTIONS</a></li>
+                <li><a href="Creation.html">CREATION</a></li>
+                <li><a href="Background.html">BACKGROUND</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>THE HISTORY OF THE INTERNET</h1>
+        <p>A brief overview of important information to know about the Internet</p>
+        <a href="People.html"class="start-btn">Start Learning</a>
 
     </div>
-    <menu id="primaryLinks" class="floatLeft">
-        <li><a href="index.html">Home</a> </li>
-        <li><a href="about.html">About</a> </li>
-    </menu>
+</section>
 
-    <div id="topContent" class="clearFix">
-        Something
+<section class="belowheader">
+    <h1> Next Section</h1>
+    <p>More Information</p>
+
+    <div class="row">
+        <div class="secondsection-col">
+            <h3>Test1</h3>
+            <p>sample</p>
+        </div>
+        <div class="secondsection-col">
+            <h3>Test2</h3>
+            <p>sample</p>
+        </div>
+        <div class="secondsection-col">
+            <h3>Test3</h3>
+            <p>sample</p>
+        </div>
     </div>
-    <article id="primaryContent" class="floatLeft">
-        <h1>About Images</h1>
-        <h2>Types of Image Formats</h2>
-        <ul>
-            <li>PNG - Portable Network Graphic</li>
-        </ul>
-    </article>
 
-    <div id ="sideContent">
+</section>
 
-        <img height="200px" width="200px" src="images/sample.jpg" alt="sample image it content: Computer Keyboard by BigOakFlickr is licensed under CC BY-SA 2.0 "/>
+<!-- Third Section-->
+
+<section class="thirdsection">
+    <h1> third Section</h1>
+    <p>More Information</p>
+
+    <div class="row">
+        <div class="thirdsection-col">
+            <img src="images/sample.jpg">
+            <div class="layer">
+             <h3>Test1</h3>
+            </div>
+        </div>
+        <div class="thirdsection-col">
+            <img src="images/sample.jpg">
+            <div class="layer">
+                <h3>Test1</h3>
+            </div>
+        </div>
+            <div class="thirdsection-col">
+                <img src="images/sample.jpg">
+                <div class="layer">
+                    <h3>Test1</h3>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer id="footer" class="clearFix">
+</section>
 
-        Sarah Voishnis&#169;
-    </footer>
+<!--Fourth Section-->
+<section class="fourthsection">
+    <h1> Fouth Section</h1>
+    <p>More Information</p>
+    <div class="row">
+        <div class="fourthsection-col">
+            <img src="images/sample.jpg">
+                <h3>Test1</h3>
+                <p> Sample text displaying here</p>
+        </div>
+        <div class="fourthsection-col">
+            <img src="images/sample.jpg">
+                <h3>Test2</h3>
+                <p> Sample text displaying here</p>
+        </div>
+        <div class="fourthsection-col">
+            <img src="images/sample.jpg">
+                <h3>Test3</h3>
+                <p> Sample text displaying here</p>
+        </div>
+    </div>
+    </div>
+</section>
 
-</div>
+<!--Fifth Section-->
+<section class="fifthsection">
+    <h1> Fifth Section</h1>
+    <a href=""class="start-btn">CLICK HERE TO LEARN MORE</a>
+</section>
+
+<!--Footer Section-->
+<section class="footer">
+    <h4> Footer</h4>
+    <p>CLICK HERE TO LEARN MORE</p>
+</section>
+
+
+
+
+<!--Javascript for Toggling Menu for Small Screens-->
+<script>
+    var navLinks = document.getElementByID(navLinks);
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="200px";
+    }
+</script>
 </body>
 
 </html>
