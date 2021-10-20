@@ -1,10 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Background</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an example of a meta description, This will often how up in the search results">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/Temp.css">
 </head>
 <body>
+<section class ="header">
+    <nav>
+        <a href="index.html">   <!--<img src="images/logo.png">--></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="People.html">PEOPLE</a></li>
+                <li><a href="Inventions.html">INVENTIONS</a></li>
+                <li><a href="Creation.html">CREATION</a></li>
+                <li><a href="Background.html">BACKGROUND</a></li>
+                <li><a href="Today.html">TODAY</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
 
+    <div class="text-box">
+        <h1>THEORIES and METHODOLOGIES OF THE INTERENT</h1>
+        <p>The Building Principles of The Internet</p>
+        <a href="People.html"class="start-btn">Start Learning</a>
+
+    </div>
+</section>
+
+<section class="belowheader">
+    <h1> Next Section</h1>
+    <p>More Information</p>
+
+    <div class="row">
+        <div class="secondsection-col">
+            <h3>Test1</h3>
+            <p>sample</p>
+        </div>
+        <div class="secondsection-col">
+            <h3>Test2</h3>
+            <p>sample</p>
+        </div>
+        <div class="secondsection-col">
+            <h3>Test3</h3>
+            <p>sample</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- Third Section-->
+
+<section class="thirdsection">
+    <h1> third Section</h1>
+    <p>More Information</p>
+
+    <div class="row">
+        <div class="thirdsection-col">
+            <img src="images/sample.jpg">
+            <div class="layer">
+                <h3>Test1</h3>
+            </div>
+        </div>
+        <div class="thirdsection-col">
+            <img src="images/sample.jpg">
+            <div class="layer">
+                <h3>Test1</h3>
+            </div>
+        </div>
+        <div class="thirdsection-col">
+            <img src="images/sample.jpg">
+            <div class="layer">
+                <h3>Test1</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--Fourth Section-->
+<section class="fourthsection">
+    <h1> Fouth Section</h1>
+    <p>More Information</p>
+    <div class="row">
+        <div class="fourthsection-col">
+            <img src="images/sample.jpg">
+            <h3>Test1</h3>
+            <p> Sample text displaying here</p>
+        </div>
+        <div class="fourthsection-col">
+            <img src="images/sample.jpg">
+            <h3>Test2</h3>
+            <p> Sample text displaying here</p>
+        </div>
+        <div class="fourthsection-col">
+            <img src="images/sample.jpg">
+            <h3>Test3</h3>
+            <p> Sample text displaying here</p>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--Fifth Section-->
+<section class="fifthsection">
+    <h1> Fifth Section</h1>
+    <a href=""class="start-btn">CLICK HERE TO LEARN MORE</a>
+</section>
+
+<!--Footer Section-->
+<section class="footer">
+    <h4> Footer</h4>
+    <p>CLICK HERE TO LEARN MORE</p>
+</section>
+
+
+
+
+<!--Javascript for Toggling Menu for Small Screens-->
+<script>
+    var navLinks = document.getElementByID(navLinks);
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="200px";
+    }
+</script>
 </body>
+
 </html>

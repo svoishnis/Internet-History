@@ -1,108 +1,142 @@
-<!DOCTYPE html>
-<html style="font-size: 16px;">
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-  <!-- Using the viewport meta tag to control layout on mobile browsers-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--	Specifies the character encoding for the HTML document. The HTML5 specification encourages web developers to use the UTF-8 character set!-->
   <meta charset="utf-8">
-  <!-- Explains Purpose of Webpage-->
-  <meta name="description" content="This is the Home Page for My Assignment">
-  <meta name="page_type" content="Z-template">
-  <meta name="author" content="Sarah Voishnis">
-  <title>Home</title>
-  <link rel="stylesheet" href="CSS/style.css" media="screen">
-  <link rel="stylesheet" href="Home.css" media="screen">
-  <link id="u-theme-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata">
+  <title>People</title>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <meta name="description" content="This is an example of a meta description, This will often how up in the search results">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS/Temp.css">
 </head>
-<body home-page="Home.html" home-page-title="Home" class="u-body"><header class="u-clearfix u-header" id="sec-0001"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-
-
-  <a href="Logo" class="u-image u-logo u-image-1">
-    <img src="images/logo.jpg" class="u-logo-image u-logo-image-1">
-  </a>
-  <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-    <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
-      <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-        <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-        </symbol>
-        </defs></svg>
-      </a>
+<body>
+<section class ="header">
+  <nav>
+    <a href="index.html">   <!--<img src="images/logo.png">--></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="People.html">PEOPLE</a></li>
+        <li><a href="Inventions.html">INVENTIONS</a></li>
+        <li><a href="Creation.html">CREATION</a></li>
+        <li><a href="Background.html">BACKGROUND</a></li>
+        <li><a href="Today.html">TODAY</a></li>
+      </ul>
     </div>
-    <div class="u-nav-container">
-      <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="index.html" style="padding: 10px 20px;">Home</a>
-      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="People.html" style="padding: 10px 20px;">People</a>
-      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Inventions.html" style="padding: 10px 20px;">Inventions</a>
-      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Creation.html" style="padding: 10px 20px;">Creation</a>
-      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Background.html" style="padding: 10px 20px;">Background</a>
-      </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Today.html" style="padding: 10px 20px;">Today</a>
-      </li></ul>
-    </div>
-    <div class="u-nav-container-collapse">
-      <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-        <div class="u-inner-container-layout u-sidenav-overflow">
-          <div class="u-menu-close"></div>
-          <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html">Home</a>
-          </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="People.html">People</a>
-          </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Inventions.html">Inventions</a>
-          </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Creation.html">Creation</a>
-          </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Background.html">Background</a>
-          </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Today.html">Today</a>
-          </li></ul>
-        </div>
-      </div>
-      <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
   </nav>
-</div></header>
-<section class="u-clearfix u-video u-section-1" id="sec-49b1">
-  <div class="u-background-video u-expanded" style="">
-    <!-- <div class="embed-responsive embed-responsive-1">
-         <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/B9YKnNtFqds?playlist=B9YKnNtFqds&amp;loop=1&amp;mute=1&amp;showinfo=0&amp;controls=0&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen=""></iframe>
-     </div>
-     -->
-  </div>
-  <div class="u-clearfix u-sheet u-sheet-1">
-    <h2 class="u-align-center u-text u-text-black u-text-default u-text-1">THE HISTORY OF THE INTERNET</h2>
+
+  <div class="text-box">
+    <h1>PEOPLE WHO MADE THE INTERENET POSSIBLE</h1>
+    <p>A brief overview of important people who had a huge influence on the creation of the Internet</p>
+    <a href="People.html"class="start-btn">Start Learning</a>
+
   </div>
 </section>
-<section class="u-clearfix u-section-2" id="sec-4f54">
-  <div class="u-clearfix u-sheet u-sheet-1">
-    <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
-      <div class="u-layout">
-        <div class="u-layout-row">
-          <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-            <div class="u-container-layout u-container-layout-1">
-              <h5 class="u-text u-text-default u-text-1">Homework Assignment Z-Layout<br>
-              </h5>
-              <h2 class="u-text u-text-default u-text-2"><b>&nbsp;How Does The Internet Work?</b>
-              </h2>
-              <h5 class="u-text u-text-default u-text-3">This Website Will Provide an Overview of Some Facts About The History Of The Internet:<br>
-              </h5>
-              <ul class="u-text u-text-default u-text-4">
-                <li>What is the Internet?</li>
-                <li>How was the Internet Created?</li>
-                <li>Important Figures to Know</li>
-                <li>Key Inventions That Make the Internet Possible</li>
-                <li>The Modern Internet</li>
-              </ul>
-            </div>
-          </div>
-          <div class="u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="1280" data-image-height="853">
-            <div class="u-container-layout u-container-layout-2"></div>
-          </div>
-        </div>
+
+<section class="belowheader">
+  <h1> Next Section</h1>
+  <p>More Information</p>
+
+  <div class="row">
+    <div class="secondsection-col">
+      <h3>Test1</h3>
+      <p>sample</p>
+    </div>
+    <div class="secondsection-col">
+      <h3>Test2</h3>
+      <p>sample</p>
+    </div>
+    <div class="secondsection-col">
+      <h3>Test3</h3>
+      <p>sample</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- Third Section-->
+
+<section class="thirdsection">
+  <h1> third Section</h1>
+  <p>More Information</p>
+
+  <div class="row">
+    <div class="thirdsection-col">
+      <img src="images/sample.jpg">
+      <div class="layer">
+        <h3>Test1</h3>
+      </div>
+    </div>
+    <div class="thirdsection-col">
+      <img src="images/sample.jpg">
+      <div class="layer">
+        <h3>Test1</h3>
+      </div>
+    </div>
+    <div class="thirdsection-col">
+      <img src="images/sample.jpg">
+      <div class="layer">
+        <h3>Test1</h3>
       </div>
     </div>
   </div>
+  </div>
+</section>
+
+<!--Fourth Section-->
+<section class="fourthsection">
+  <h1> Fouth Section</h1>
+  <p>More Information</p>
+  <div class="row">
+    <div class="fourthsection-col">
+      <img src="images/sample.jpg">
+      <h3>Test1</h3>
+      <p> Sample text displaying here</p>
+    </div>
+    <div class="fourthsection-col">
+      <img src="images/sample.jpg">
+      <h3>Test2</h3>
+      <p> Sample text displaying here</p>
+    </div>
+    <div class="fourthsection-col">
+      <img src="images/sample.jpg">
+      <h3>Test3</h3>
+      <p> Sample text displaying here</p>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!--Fifth Section-->
+<section class="fifthsection">
+  <h1> Fifth Section</h1>
+  <a href=""class="start-btn">CLICK HERE TO LEARN MORE</a>
+</section>
+
+<!--Footer Section-->
+<section class="footer">
+  <h4> Footer</h4>
+  <p>CLICK HERE TO LEARN MORE</p>
 </section>
 
 
-<footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-2941"><div class="u-clearfix u-sheet u-sheet-1">
-  <p class="u-bottom-text">
-    <span>Created for NJIT IS601 Web Systems Development by Sarah Voishnis</span>
-  </p>
-</div>
-</footer>
+
+
+<!--Javascript for Toggling Menu for Small Screens-->
+<script>
+  var navLinks = document.getElementByID(navLinks);
+
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="200px";
+  }
+</script>
 </body>
+
 </html>
