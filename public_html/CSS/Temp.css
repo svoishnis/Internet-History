@@ -1,0 +1,25 @@
+.header{
+position: relative;
+}
+.header .image {
+    width: 70px;
+    height: 70px;
+}
+.header .menu {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style-type: none;
+}
+.menu li {
+    float: left;
+    margin: 0 8px;
+}
+.image, .menu {
+    display: inline-block;
+    vertical-align: bottom;
+}
