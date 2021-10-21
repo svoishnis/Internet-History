@@ -48,7 +48,7 @@
 }
 .nav-links ul li::after{
     content: '';
-    width: 100%;
+    width: 0%;
     height: 2px;
     background: coral;
     display: block;
@@ -225,6 +225,9 @@ width: 100%;
     padding-top: 100px;
 
 }
+.fourthsection p{
+  font-size: 20px;
+}
 .fourthsection-col{
     flex-basis: 30%;
     border-radius: 10px;
@@ -233,8 +236,10 @@ width: 100%;
     overflow: hidden;
 }
 .fourthsection-col img{
-    width: 100%;
+    width: 90%;
+    height: 450px;
     border-radius: 10px;
+    object-fit: cover;
 }
 .fourthsection-col p{
     padding: 0;
@@ -280,7 +285,7 @@ width: 100%;
 }
 /*-------sixthsection------*/
 .sixthsection{
-    width: 80%;
+    width: 100%;
     margin: 100px auto;
     text-align: center;
     padding-top: 50px;
