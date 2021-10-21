@@ -48,7 +48,7 @@
 }
 .nav-links ul li::after{
     content: '';
-    width: 0%;
+    width: 100%;
     height: 2px;
     background: coral;
     display: block;
@@ -281,7 +281,7 @@ width: 100%;
 /*-------sixthsection------*/
 .sixthsection{
     width: 80%;
-    margin: auto;
+    margin: 100px auto;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -290,6 +290,9 @@ width: 100%;
     border-radius: 10px;
     position: relative;
     color: white;
+}
+.sixthsection:before{
+    margin-top: 100px;
 }
 
 .sixthsection img{
