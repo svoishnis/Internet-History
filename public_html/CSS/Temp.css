@@ -6,9 +6,17 @@
 .header{
     min-height: 100vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("images/technology-networking.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/pexels-mateusz-dach-450035.jpg);
     background-position: center;
     background-size: cover;
+
+}
+/*----Header Styles---*/
+.header-text{
+    color: white;
+    font-size: 30px;
+    padding: 2%, 6%;
+    font-weight: bold;
 }
 .nav{
     display: flex;
@@ -16,10 +24,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav img{
-    height: 50px;
-    width: 50px;
-}
+.header-text img{
+    display: inline;
+    padding: 0;
+    height: 100px;
+    }
+
 .nav-links{
     flex: 1;
     text-align: right;
@@ -29,6 +39,7 @@
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    padding-bottom: none;
 }
 .nav-links ul li a {
     text-decoration: none;
@@ -48,7 +59,7 @@
     width: 100%;
 }
 .text-box{
-    width: 90%;
+    width: 100%;
     color: white;
     position: absolute;
     top: 50%;
@@ -78,7 +89,7 @@
 .start-btn:hover{
     border: 1px solid coral;
     background: coral;
-    transition: 1s;
+    transition: .5s;
 }
 na.fa{
     display: none;
@@ -110,6 +121,8 @@ na.fa{
         padding: 30px;
     }
 }
+
+/*----Second Section Styles---*/
 .belowheader{
     width: 80%;
     margin: auto;
@@ -156,6 +169,7 @@ h3{
     }
 
 }
+/*----Third Section Styles---*/
 .thirdsection{
     width: 80%;
     margin: auto;
@@ -171,6 +185,7 @@ h3{
 }
 .thirdsection-col img{
 width: 100%;
+    object-fit: contain;
     display: block;
 }
 .layer{
@@ -215,6 +230,7 @@ width: 100%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    overflow: hidden;
 }
 .fourthsection-col img{
     width: 100%;
@@ -234,7 +250,7 @@ width: 100%;
     margin: 100px auto;
     text-align: center;
     padding: 100px 0;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/logo.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/logo.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -251,7 +267,7 @@ width: 100%;
         font-size: 25px;
     }
 }
-/*-------fifthsection------*/
+/*-------footersection------*/
 .footer{
     width: 100%;
     text-align: center;
@@ -262,4 +278,69 @@ width: 100%;
     margin-top: 20px;
     font-weight: bold;
 }
+/*-------sixthsection------*/
+.sixthsection{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/pexels-christina-morillo-1181271.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+
+.sixthsection img{
+    object-fit: contain;
+
+}
+.sixthsection h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.sixthsection-col{
+    flex-basis: 30%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.infoList{
+    list-style-type: none;
+    padding-left: 1000px;
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+.sixthsection h4{
+    color: coral;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 20px;
+}
+.sixthsection li {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.infoList:beore{
+content: '';
+    background: coral;
+    display: inline;
+    position: absolute;
+    left: 130px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+    padding-left: 100px;
+}
+
 
