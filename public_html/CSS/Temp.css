@@ -12,11 +12,12 @@
 
 }
 /*----Header Styles---*/
-.header-text{
+.header-text li a{
     color: white;
     font-size: 30px;
     padding: 2%, 6%;
     font-weight: bold;
+    text-decoration: none;
 }
 .nav{
     display: flex;
@@ -255,7 +256,7 @@ width: 100%;
     margin: 100px auto;
     text-align: center;
     padding: 100px 0;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/logo.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/pexels-pixabay-270348.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -282,6 +283,15 @@ width: 100%;
     margin-bottom: 20px;
     margin-top: 20px;
     font-weight: bold;
+}
+.footer h5{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none
+}
+.footer a{
+    padding-right: 15px;
 }
 /*-------sixthsection------*/
 .sixthsection{
